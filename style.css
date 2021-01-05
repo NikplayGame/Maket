@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    background-image: url('img/bg-header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo {
+display: block;
+width: 146px;
+height: 133px;
+margin: 0 auto;
+padding-top: 225px;
+}
+.icons {
+display: flex;
+list-style-type: none;
+justify-content: center;
+margin-top: 50px;
+}
+.icons__item {
+    padding: 20px;
+}
+.icons__item--circle {
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.title {
+    font-weight: 500;
+    font-size: 38px;
+    color: #fff;
+    text-align: center;
+    margin-top: 90px;
+}
+.title--thin {
+    font-weight: 100;
+}
+.Timer_Center {
+    display: flex;
+    list-style-type: none;
+justify-content: center;
+}
+.timer__item {
+    padding: 40px;
+}
+
+.timer__item {
+margin-top: 5px;
+font-size: 64px;
+color: #fff;
+text-align: center;
+}
+
+.timer__item2 {
+   margin-top: -60px;
+   margin-left: 35px;
+   font-size: 20px;
+   color: #fff;
+   padding: 30px;
+   font-weight: 100
+   }
+
+.timer__text--circle{
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.Support_icon {
+    margin:auto;
+    filter: grayscale(100%)
+}
+.bckblack {
+    background-image: url('img/opacbck.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.light_icon {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-left:-500px;
+}
+.light_icon_pad {
+  padding-right: 400px;  
+}
+.txt_un_icon {
+    display: flex;
+    list-style-type: none;
+    justify-content: left;
+    margin-left:250px;
+}
+.txt_devop {
+    padding-right: 260px;
+    font-size:28px;
+    font-weight:700;
+}
+.main_dev_txt {
+    display: flex;
+}
+.main_txt {
+    display:block;
+    width: 335px;
+    height: 75px;
+    font-weight: 100px ;
+    font-size: 16px;
+    margin-left: 250px;
+}
+.main_txt2 {
+    display:block;
+    width: 335px;
+    height: 75px;
+    font-weight: 100px ;
+    font-size: 16px;
+    position: absolute;
+    right: 490px
+}
+.main_txt3 {
+    display:block;
+    width: 335px;
+    height: 75px;
+    font-weight: 100px ;
+    font-size: 16px;
+    position: absolute;
+    right: 40px;
+}
+.all_but {
+    display: flex;
+    justify-self: center;
+}
+.blackbut {
+    background-color: black;
+    color: #fff;
+    border-color: black;
+    width: 150px;
+ height: 40px;
+ font-size: 20px;
+font-weight: 500px;
+position: absolute; 
+left: 300px;
+}
+.greenbut {
+    background-color: #51aa92;
+    color: #fff;
+    border-color: black;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500px;
+    position: absolute;
+    left: 750px;
+}
+.blackbut1 {
+background-color: black;
+color: #fff;
+border-color:black;
+width: 150px;
+height: 40px;
+font-size: 20px;
+font-weight: 500px;
+position: absolute; 
+right: 200px;
+}
+.bck_green1 {
+    background-color: #51aa92;
+    height: 400px;
+    width: auto;
+}
+.Sub_text {
+color: #fff;
+font-weight: 500px;
+font-size: 72px;
+margin-left: 50px;
+padding-top: 150px;
+}
+.Sub_main_txt {
+    display: block;
+    width: 705px;
+    height: 60px;
+    color: #fff;
+    font-weight: 100px;
+    font-size: 16px;
+    margin-left: 700px;
+}
+.bck_white_we {
+    background-color: #fff;
+    height: 400px;
+    width: auto;
+}
+.Who_title {
+font-weight: 700;
+font-size: 52px;
+color: #9a9a9a;
+margin-top: 100px;
+margin-left: 50px;
+}
+.Who_main_txt {
+display: block;
+width: 550px;
+height: 75;
+font-weight: 300;
+color: #9a9a9a;
+margin-left: 100px;
+margin-top: 10px;
+
+}
+.border_img {
+margin-left: 800px;
+}
+.Decap_txt {
+font-weight: 500;
+color: #9a9a9a;
+margin-left: 900px;
+}
+.Decap_main{
+    display: block;
+    width: 650px;
+    height: 55;
+    font-weight: 300;
+    color: #9a9a9a;
+ margin-left: 900px;
+}
+.img_twitter{
+background-color: #51aa92;
+height: 400px;
+width: auto;
+}
+.cen_twit{
+margin-left: 730px;
+margin-top: 75px;
+}
+.link_em {
+text-align: center;
+padding-top: 50px;
+color:#fff;
+font-size:24px;
+}
+.Semiboil {
+font-weight: 600px;
+
+}
+.date_txt {
+font-weight: 600px;
+text-align: center;
+padding-top: 50px;
+color: #fff;
+font-weight: 600px;
+font-size: 18px;
+}
+.bg_botton{
+    background-image: url(img/bg-bottom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(90%)
+}
